@@ -1,6 +1,5 @@
 package fileIOStream;
 
-import java.awt.PageAttributes.OrientationRequestedType;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 

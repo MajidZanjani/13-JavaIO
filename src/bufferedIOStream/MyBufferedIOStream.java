@@ -1,4 +1,4 @@
-package bufferedIO;
+package bufferedIOStream;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

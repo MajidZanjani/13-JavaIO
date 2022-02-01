@@ -12,22 +12,22 @@ public class MySequence {
 		// First you have to make 4 files...
 		try {	
 			FileOutputStream fileOutputStream = new FileOutputStream("D:\\File1.txt");
-			String myString = "This is File1. ";
+			String myString = "This is ";
 			byte[] b = myString.getBytes();
 			fileOutputStream.write(b);
 			fileOutputStream.close();
 			fileOutputStream = new FileOutputStream("D:\\File2.txt");
-			myString = "This is File2. ";
+			myString = "an example for ";
 			b = myString.getBytes();
 			fileOutputStream.write(b);
 			fileOutputStream.close();	
 			fileOutputStream = new FileOutputStream("D:\\File3.txt");
-			myString = "This is File3. ";
+			myString = "SequenceStream ";
 			b = myString.getBytes();
 			fileOutputStream.write(b);
 			fileOutputStream.close();	
 			fileOutputStream = new FileOutputStream("D:\\File4.txt");
-			myString = "This is File4.";
+			myString = "in Java.";
 			b = myString.getBytes();
 			fileOutputStream.write(b);
 			fileOutputStream.close();	
